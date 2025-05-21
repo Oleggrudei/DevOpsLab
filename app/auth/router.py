@@ -45,7 +45,7 @@ async def auth_user(
     set_tokens(response, user.id)
     return {
         'ok': True,
-        'message': 'Авторизація успішна!'
+        'message': 'Авторизація успішна! '
     }
 
 
